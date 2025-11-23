@@ -1,0 +1,30 @@
+/* App / Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background: linear-gradient(90deg,#36221a,#2b1a13);
+  color: #fff;
+  gap: 12px;
+}
+.navbar .name h4 { margin: 0; font-size: 18px; }
+.nav-links { display: flex; gap: 12px; flex-wrap: wrap; }
+.linklist {
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.linklist:hover { background: rgba(255,255,255,0.06); color: #f9c784; }
+
+/* main layout */
+.app-main { max-width: 1100px; margin: 20px auto; padding: 0 16px; }
+
+/* pages */
+.page { padding: 18px 0; text-align: left; }
+.page h1 { margin-bottom: 12px; }
+
+/* homepage image */
+.homepage-img-wrap { text-align: center; margin: 12px 0; }
+.homepage-img { max-width: 100%; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.12); }
