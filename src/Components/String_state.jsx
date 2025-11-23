@@ -42,13 +42,13 @@ const String_state = () => {
     <>
       <h1>String_state</h1>
 
-      <button onClick={change}>string_1</button>
+      <button onClick={change} id="btn">string_1</button>
       <h4>Updated string - {string_1}</h4>
 
-      <button onClick={define}>string_2</button>
+      <button onClick={define}id="btn">string_2</button>
       <h4>Updated string - {string_2}</h4>
 
-      <button onClick={handleClick}>string_3</button>
+      <button onClick={handleClick}id="btn">string_3</button>
       <h4>Updated string - {string_3}</h4>
     </>
   );

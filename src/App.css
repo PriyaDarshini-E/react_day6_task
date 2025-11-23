@@ -28,3 +28,11 @@
 /* homepage image */
 .homepage-img-wrap { text-align: center; margin: 12px 0; }
 .homepage-img { max-width: 100%; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.12); }
+
+#btn{
+  background-color:cadetblue;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

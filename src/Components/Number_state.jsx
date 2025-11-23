@@ -24,13 +24,13 @@ const Number_state = () => {
     <>
      <h1>String_state</h1>
 
-      <button onClick={numb}>numbrer_1</button>
+      <button onClick={numb } id="btn">numbrer_1</button>
       <h4>Updated number - {numb_1}</h4>
 
-      <button onClick={even_1}>Even_number</button>
+      <button onClick={even_1} id="btn">Even_number</button>
        <h4>Updated number - {even}</h4>
 
-       <button onClick={odd_1}>Odd_number</button>
+       <button onClick={odd_1} id="btn">Odd_number</button>
        <h4>Updated number - {odd}</h4>
 
 

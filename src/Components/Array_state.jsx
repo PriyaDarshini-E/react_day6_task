@@ -16,10 +16,10 @@ const Array_state = () => {
     <>
      <h1>Array_state</h1>
 
-      <button onClick={numb}>number_1</button>
+      <button onClick={numb} id="btn">number_1</button>
       <h4>Updated number - {numb_1}</h4>
 
-      <button onClick={increase}>number_2</button>
+      <button onClick={increase} id="btn">number_2</button>
       <h4>Updated number - {number}</h4>
       </>
   )

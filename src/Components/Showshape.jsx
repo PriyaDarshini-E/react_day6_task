@@ -32,8 +32,7 @@ const Showshape = () => {
         {/* TRIANGLE */}
         {index === 2 && (
           <div
-            className="w-0 h-0 
-            border-l-[80px] border-l-transparent
+            className="w-0 h-0 border-l-[80px] border-l-transparent
             border-r-[80px] border-r-transparent
             border-b-[140px] border-b-green-400"
           ></div>
